@@ -1,0 +1,40 @@
+ul {
+  background: lightblue;
+  padding: 20px;
+  min-width: max-content;
+  max-width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 15px 50px 30px;
+}
+
+ul:hover {
+  color: lightseagreen;
+  border-radius: 40px;
+}
+
+ul li {
+  background: lightblue;
+  padding: 5px;
+  display: inline;
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: lightseagreen;
+  font-size: large;
+}
+
+.position {
+  align-content: center;
+  margin-top: 3%;
+}
+
+.pos {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 400%;
+  font-weight: bolder;
+  margin-top: 2%;
+  color: darkslategray;
+}

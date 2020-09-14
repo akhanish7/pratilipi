@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<div class="position"><b>{{title}}</b></div>
+
+<div>
+  <textarea class="div2"
+    style="font-size: large; color: cadetblue; font-weight: 600; font-family: Georgia, 'Times New Roman', Times, serif;"
+    readonly>
+    {{content}}</textarea>
+
+</div>
+
+
+
+<div>
+  <h1 class="views">TOTAL VIEWS: {{story.readCount}}</h1>
+</div>
+<div *ngIf="activeUsers">
+  <h1 class="users">ACTIVE USERS: {{activeUsers}}</h1>
+
+</div>

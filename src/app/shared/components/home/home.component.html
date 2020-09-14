@@ -1,0 +1,10 @@
+<app-header></app-header>
+<h1 class="pos">TITLES</h1>
+<div class="position">
+  <div *ngFor="let story of stories" (click)="getStory(story._id)">
+
+    <ul>
+      <li>{{story.title}}</li>
+    </ul>
+  </div>
+</div>

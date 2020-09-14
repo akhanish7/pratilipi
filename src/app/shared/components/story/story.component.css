@@ -1,0 +1,43 @@
+.div2 {
+  width: 700px;
+  height: 300px;
+  padding: 50px;
+  border: 1px solid lightsteelblue;
+  border-width: 20px;
+  margin-left: 28%;
+  margin-right: 35%;
+  box-sizing: content-box;
+}
+
+.content {
+  padding: 10px;
+  border-width: 20px;
+  border-color: aqua;
+  max-width: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.position {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 400%;
+  margin-top: 3%;
+  color: darkslategray;
+}
+
+textarea {
+  border-color: lightsteelblue;
+  font-size: medium;
+  font-weight: 100;
+  margin-top: 2%;
+  resize: none;
+}
+
+h1 {
+  margin-top: 1%;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
